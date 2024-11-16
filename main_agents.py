@@ -1,5 +1,5 @@
 from typing import Any, Dict
-from .base_agent import MainAgent
+from base_agent import MainAgent
 
 class SummarizeAgent(MainAgent):
     async def process(self, input_data: str) -> Dict[str, Any]:
