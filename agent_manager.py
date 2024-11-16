@@ -1,7 +1,7 @@
 from typing import Dict, Any
-from agents.main_agents import SummarizeAgent, WriteArticleAgent, SanitizeDataAgent
-from agents.validator_agents import SummarizeValidatorAgent, RefinerAgent, SanitizeValidatorAgent
-from core.logger import Logger
+from main_agents import SummarizeAgent, WriteArticleAgent, SanitizeDataAgent
+from validator_agents import SummarizeValidatorAgent, RefinerAgent, SanitizeValidatorAgent
+from logger import Logger
 
 class AgentManager:
     def __init__(self):
