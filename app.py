@@ -1,6 +1,6 @@
 import streamlit as st
 import asyncio
-from core.agent_manager import AgentManager
+from agent_manager import AgentManager
 
 # Set page configuration with custom theme
 st.set_page_config(
