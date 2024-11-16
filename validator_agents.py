@@ -1,5 +1,5 @@
 from typing import Any, Dict
-from .base_agent import ValidatorAgent
+from base_agent import ValidatorAgent
 
 class SummarizeValidatorAgent(ValidatorAgent):
     async def validate(self, input_data: str, output_data: Dict[str, Any]) -> Dict[str, bool]:
